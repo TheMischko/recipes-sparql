@@ -1,0 +1,15 @@
+{
+  "name": "sparql-endpoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx comunica-sparql-file-http recipes.ttl"
+  },
+  "author": "Michal Dvorak",
+  "license": "ISC",
+  "dependencies": {
+    "@comunica/query-sparql": "^2.5.2",
+    "@comunica/query-sparql-file": "^2.5.2"
+  }
+}

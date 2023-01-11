@@ -1,0 +1,22 @@
+{
+  "name": "what-can-i-cook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "serve": "npx serve"
+  },
+  "author": "Michal Dvorak",
+  "license": "ISC",
+  "dependencies": {
+    "sparql-http-client": "^2.4.2",
+    "sparqljs": "^3.6.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
